@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.HTML" >Home</a>
+            <a class="cabecalho__menu__link" href="about.html" >Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo_texto">Olá! Sou João Pedro, estudante de Ciência da Computação na UTFPR e desenvolvedor Front-end, especializado em React, HTML e CSS. Estou focado em auxiliar pequenos negócios e designers a transformarem suas excelentes ideias em realidade. Estou à disposição para trocarmos ideias. Que tal iniciarmos uma conversa?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://instagram.com/jpserezuelo">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/JoaoSerezuelo">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/JoaoSerezuelo"> <img src="./assets/github.png" alt="logo github"> Github</a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-serezuelo-amancio-437986243/"> <img src="./assets/linkedin.png" alt="logo  linKedin"> Linkedin</a>
+                  <a class="apresentacao__links__link" href="https://instagram.com/jpserezuelo"> <img src="./assets/instagram.png"> Instagram</a>
             </div>
         </section>
-        <img src="foto.png" alt="foto do joao pedro">
+        <img src="./assets/foto.png" alt="foto do joao pedro">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por João Pedro</p>
+    </footer>
 </body>
 </html>
